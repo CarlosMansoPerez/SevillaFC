@@ -1,0 +1,131 @@
+/*  PÁGINA DE ESTILO PARA EDITAR LOS COMPOMNENTES DE BOOTSTRAP
+
+Autor: Carlos Manso Pérez
+
+Fecha: 19/01/2022
+
+Version: 1.0
+
+*/
+
+/************* ESTILO DE NAV **************/
+@font-face {
+    font-family: titulo;
+    src: url(../fonts/Race\ Sport\ Free.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(../fonts/riesling.ttf);
+}
+.titulo{
+    font-family: titulo;
+}
+
+.texto{
+    font-family: texto;
+}
+
+#logo{
+    width: 32px;
+}
+
+.navbar-mauve{
+    color: rgb(122, 7, 230);
+}
+
+.bg-vanilla{
+    background-color: rgb(241, 218, 86);
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.borde{
+    box-sizing: border-box;
+    border-radius: 3%;
+    border: 5px rgb(96, 96, 104);
+}
+
+.colimg{
+    width: 90%;
+    height: 500px;
+}
+
+.rojo{
+    color: rgb(180, 28, 28);
+}
+.negro{
+    color: black;
+}
+
+.blanco{
+    color: white;
+}
+.burdeo{
+    color: rgba(255, 0, 0, 0.637);
+}
+.gris{
+    color: darkgrey;
+}
+.margenArribaGrande{
+    margin-top: 70px;
+}
+.margenArribaPequeño{
+    margin-top: 35px;
+}
+
+.FondoBurdeo{
+    background-color: rgba(255, 0, 0, 0.637);
+}
+
+.FondoNegro{
+    background-color: black;
+}
+.centrar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textoCentrado{
+    text-align: center;
+}
+.sticky{
+    position: sticky;
+}
+.letraGrande{
+    font-size: 3em;
+}
+.letraMediana{
+    font-size: 2em;
+}
+.letraPequeña{
+    font-size: 1em;
+}
+.bordeFinal{
+    border-bottom: 5px solid rgba(255, 0, 0, 0.637);
+}
+.fotoFooter{
+    width: 25%;
+    height: 50%;
+}
+.noLinks{
+    text-decoration: none;
+}
+.sombra{
+    text-shadow: 1px 1px 5px white;
+}
+.sombra2{
+    text-shadow: 1px 1px 5px black;
+}
+.FondoBurdeoOscuro{
+background-color: rgb(122, 12, 12);
+}
+A:link{
+    text-decoration: none;
+    
+}
+A:hover{
+    text-decoration: none;
+}
